@@ -1,0 +1,78 @@
+/* Carlos Cabrera Moral UO28859 */
+
+/* ESPECIFICIDAD = 001 */
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ESPECIFICIDAD = 003 */
+section > div > div {
+    width: 80%;
+    margin: 5vh;
+    height: 45vh;
+}
+
+/* ESPECIFICIDAD = 001 */
+svg {
+    width: 80%;  
+    height: auto; 
+}
+
+@media (min-width: 320px) and (max-width: 799px) {
+    /* ESPECIFICIDAD = 001 */
+    header {
+        flex-direction: column; /* Redefinición */
+        text-align: center;
+        row-gap: 2.5vw;
+        padding: 2.5vw 0;
+    }
+
+    /* ESPECIFICIDAD = 002 */
+    header nav {
+        display: flex;         
+        flex-direction: column; 
+        align-items: stretch;   
+        width: 100%;
+    }
+
+    /* ESPECIFICIDAD = 012 */
+    body > p:first-of-type {
+        display: none;
+    }
+
+    /* ESPECIFICIDAD = 001 */
+    /* ESPECIFICIDAD = 001 */
+    video, audio {
+        width: 100%; 
+        height: auto; 
+    }
+
+    /* ESPECIFICIDAD = 004 */
+    /* Carrusel de imagenes */
+    main > article > h2 + img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        display: block;
+        overflow: hidden;
+    }
+
+    /* ESPECIFICIDAD = 003 */
+    section > div > div {
+        width: auto; /* Redefinición */
+        margin: 5vh; /* Redefinición */
+        height: 40vh; /* Redefinición */
+    }
+
+    /* ESPECIFICIDAD = 002 */
+    /* Evita scroll horizontal en los enlaces de InfoCircuito */
+    li > a {
+        display: inline-block;
+        max-width: 100%;
+        word-break: break-all;
+        overflow-wrap: anywhere;
+    }
+}   

@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>MotoGP-Circuito</title>
+    <meta name="author" content="Carlos Cabrera Moral"/>
+    <meta name="description" content="Información sobre los circuitos"/>
+    <meta name="keywords" content="índice, motoGP" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" href="multimedia/icon.ico" />
+
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" 
+            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" 
+            crossorigin="anonymous">
+    </script>
+    <!-- Mapbox GL JS -->
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.0.1/mapbox-gl.js"></script>
+    
+    <script src="js/circuito.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" title="MotoGP Desktop">MotoGP Desktop</a></h1>
+        <nav>
+            <a href="index.html" title="Índice de MotoGP-Desktop">Inicio</a>
+            <a href="piloto.html" title="Información del piloto">Piloto</a>
+            <a href="circuito.html" title="Información del circuito" class="active">Circuito</a>
+            <a href="meteorologia.html" title="Información sobre la meteorologia">Meteorología</a>
+            <a href="clasificaciones.php" title="Información sobre las clasificaciones del piloto">Clasificaciones</a>
+            <a href="juegos.html" title="Juegos y pasatiempos">Juegos</a>
+            <a href="ayuda.html" title="Ayuda de MotoGP-Desktop">Ayuda</a>
+        </nav>
+    </header>
+
+    <!-- Migas de navegación -->
+    <p>Estás en: <a href="index.html" title="Inicio">Inicio</a> >> <strong>Circuito</strong></p>
+
+    <main>
+        <h2>Circuito de MotoGP-Desktop</h2>
+        
+        <section>
+            <h3>Información del Circuito</h3>
+            <label for="archivoCircuito">Selecciona el archivo InfoCircuito.html: </label>
+            <input type="file" id="archivoCircuito" accept=".html">
+        </section>
+
+        <section id="seccion-svg">
+            <h3>Perfil de Altimetría del Circuito</h3>
+            <label for="archivoSVG">Selecciona el archivo altimetria.svg: </label>
+            <input type="file" id="archivoSVG" accept=".svg">
+            <figure id="contenedor-svg"></figure>
+        </section>
+
+        <section id="seccion-kml">
+            <h3>Mapa del circuito</h3>
+            <label for="archivoKML">Selecciona el archivo circuito.kml: </label>
+            <input type="file" id="archivoKML" accept=".kml">
+            <div id="contenedor-kml"></div>
+        </section>
+        
+    </main>
+</body>
+
+</html>

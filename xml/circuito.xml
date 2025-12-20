@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE circuito SYSTEM "circuito.dtd">
+<circuito>
+    <nombre>Circuit Ricardo Tormo</nombre>
+    <longitudCircuito unidades="metros">4005</longitudCircuito>
+    <anchura unidades="metros">12</anchura>
+    <fecha>16 de noviembre de 2025</fecha>
+    <horaEsp>14:00</horaEsp>
+    <numeroVueltas>27</numeroVueltas>
+    <localidadProxima>Cheste</localidadProxima>
+    <pais>España</pais>
+    <patrocinador>Motul</patrocinador>
+    <referenciaBibliografia>
+        <referencia>https://www.circuitricardotormo.com/sabias-todos-estos-datos-sobre-el-valenciagp-y-el-circuit-ricardo-tormo/</referencia>
+        <referencia>https://es.wikipedia.org/wiki/Circuito_Ricardo_Tormo</referencia>
+        <referencia>https://www.dazn.com/es-ES/news/motor/gp-valencia-motogp-circuito-ricardo-tormo-cheste-fecha-hora-canal-tv-donde-ver-online-gran-premio-mundial-motociclismo/m8hhcx6f9sgv1d0dfae2gu1qa</referencia>
+    </referenciaBibliografia>
+    <galeriaFotografia>
+        <fotografia>../multimedia/ricardo-tormo.jpg</fotografia>
+    </galeriaFotografia>
+    <galeriaVideos>
+        <video>../multimedia/ricardo-tormo.mp4</video>
+    </galeriaVideos>
+    <origenCircuito>
+        <coordenada>
+            <longitud>-0.631082</longitud>
+            <latitud>39.483571</latitud>
+            <altitud>153</altitud>
+        </coordenada>
+    </origenCircuito>
+    <!-- Sector 1 -->
+    <puntoTramo>
+        <distanciaTramo unidades="metros">492</distanciaTramo>
+        <coordenada>
+            <longitud>-0.626336</longitud>
+            <latitud>39.486088</latitud>
+            <altitud>145</altitud>
+        </coordenada>
+        <numeroSector>1</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">34</distanciaTramo>
+        <coordenada>
+            <longitud>-0.626125</longitud>
+            <latitud>39.486340</latitud>
+            <altitud>145</altitud>
+        </coordenada>
+        <numeroSector>1</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">33</distanciaTramo>
+        <coordenada>
+            <longitud>-0.626043</longitud>
+            <latitud>39.486651</latitud>
+            <altitud>146</altitud>
+        </coordenada>
+        <numeroSector>1</numeroSector>
+    </puntoTramo>
+    <!-- Sector 2 -->
+    <puntoTramo>
+        <distanciaTramo unidades="metros">330</distanciaTramo>
+        <coordenada>
+            <longitud>-0.627513</longitud>
+            <latitud>39.489409</latitud>
+            <altitud>150</altitud>
+        </coordenada>
+        <numeroSector>2</numeroSector>
+    </puntoTramo>
+    <!-- Sector 3 -->
+    <puntoTramo>
+        <distanciaTramo unidades="metros">24</distanciaTramo>
+        <coordenada>
+            <longitud>-0.627782</longitud>
+            <latitud>39.489455</latitud>
+            <altitud>150</altitud>
+        </coordenada>
+        <numeroSector>3</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">25</distanciaTramo>
+        <coordenada>
+            <longitud>-0.628018</longitud>
+            <latitud>39.489325</latitud>
+            <altitud>150</altitud>
+        </coordenada>
+        <numeroSector>3</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">146</distanciaTramo>
+        <coordenada>
+            <longitud>-0.628274</longitud>
+            <latitud>39.488013</latitud>
+            <altitud>149</altitud>
+        </coordenada>
+        <numeroSector>3</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">158</distanciaTramo>
+        <coordenada>
+            <longitud>-0.627150</longitud>
+            <latitud>39.486864</latitud>
+            <altitud>147</altitud>
+        </coordenada>
+        <numeroSector>3</numeroSector>
+    </puntoTramo>
+    <!-- Sector 4 -->
+    <puntoTramo>
+        <distanciaTramo unidades="metros">24</distanciaTramo>
+        <coordenada>
+            <longitud>-0.627195</longitud>
+            <latitud>39.486647</latitud>
+            <altitud>146</altitud>
+        </coordenada>
+        <numeroSector>4</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">130</distanciaTramo>
+        <coordenada>
+            <longitud>-0.628474</longitud>
+            <latitud>39.486023</latitud>
+            <altitud>147</altitud>
+        </coordenada>
+        <numeroSector>4</numeroSector>
+    </puntoTramo>
+    <!-- Sector 5 -->
+    <puntoTramo>
+        <distanciaTramo unidades="metros">33</distanciaTramo>
+        <coordenada>
+            <longitud>-0.628867</longitud>
+            <latitud>39.486097</latitud>
+            <altitud>148</altitud>
+        </coordenada>
+        <numeroSector>5</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">44</distanciaTramo>
+        <coordenada>
+            <longitud>-0.629103</longitud>
+            <latitud>39.486441</latitud>
+            <altitud>149</altitud>
+        </coordenada>
+        <numeroSector>5</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">212</distanciaTramo>
+        <coordenada>
+            <longitud>-0.629160</longitud>
+            <latitud>39.488356</latitud>
+            <altitud>154</altitud>
+        </coordenada>
+        <numeroSector>5</numeroSector>
+    </puntoTramo>
+    <!-- Sector 6 -->
+    <puntoTramo>
+        <distanciaTramo unidades="metros">28</distanciaTramo>
+        <coordenada>
+            <longitud>-0.629412</longitud>
+            <latitud>39.488533</latitud>
+            <altitud>155</altitud>
+        </coordenada>
+        <numeroSector>6</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">33</distanciaTramo>
+        <coordenada>
+            <longitud>-0.629791</longitud>
+            <latitud>39.488493</latitud>
+            <altitud>155</altitud>
+        </coordenada>
+        <numeroSector>6</numeroSector>
+    </puntoTramo>
+    <!-- Sector 7 -->
+    <puntoTramo>
+        <distanciaTramo unidades="metros">310</distanciaTramo>
+        <coordenada>
+            <longitud>-0.632738</longitud>
+            <latitud>39.486880</latitud>
+            <altitud>161</altitud>
+        </coordenada>
+        <numeroSector>7</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">161</distanciaTramo>
+        <coordenada>
+            <longitud>-0.633673</longitud>
+            <latitud>39.485623</latitud>
+            <altitud>163</altitud>
+        </coordenada>
+        <numeroSector>7</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">30</distanciaTramo>
+        <coordenada>
+            <longitud>-0.633657</longitud>
+            <latitud>39.485340</latitud>
+            <altitud>161</altitud>
+        </coordenada>
+        <numeroSector>7</numeroSector>
+    </puntoTramo>
+    <!-- Sector 8 -->
+    <puntoTramo>
+        <distanciaTramo unidades="metros">32</distanciaTramo>
+        <coordenada>
+            <longitud>-0.633400</longitud>
+            <latitud>39.485117</latitud>
+            <altitud>159</altitud>
+        </coordenada>
+        <numeroSector>8</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">45</distanciaTramo>
+        <coordenada>
+            <longitud>-0.632877</longitud>
+            <latitud>39.485076</latitud>
+            <altitud>158</altitud>
+        </coordenada>
+        <numeroSector>8</numeroSector>
+    </puntoTramo>
+    <!-- Sector 9 -->
+    <puntoTramo>
+        <distanciaTramo unidades="metros">135</distanciaTramo>
+        <coordenada>
+            <longitud>-0.631614</longitud>
+            <latitud>39.485814</latitud>
+            <altitud>156</altitud>
+        </coordenada>
+        <numeroSector>9</numeroSector>
+    </puntoTramo>
+    <!-- Sector 10 -->
+    <puntoTramo>
+        <distanciaTramo unidades="metros">114</distanciaTramo>
+        <coordenada>
+            <longitud>-0.631300</longitud>
+            <latitud>39.486806</latitud>
+            <altitud>155</altitud>
+        </coordenada>
+        <numeroSector>10</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">100</distanciaTramo>
+        <coordenada>
+            <longitud>-0.630377</longitud>
+            <latitud>39.487331</latitud>
+            <altitud>155</altitud>
+        </coordenada>
+        <numeroSector>10</numeroSector>
+    </puntoTramo>
+    <!-- Sector 11 -->
+    <puntoTramo>
+        <distanciaTramo unidades="metros">30</distanciaTramo>
+        <coordenada>
+            <longitud>-0.630051</longitud>
+            <latitud>39.487273</latitud>
+            <altitud>155</altitud>
+        </coordenada>
+        <numeroSector>11</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">35</distanciaTramo>
+        <coordenada>
+            <longitud>-0.629920</longitud>
+            <latitud>39.486935</latitud>
+            <altitud>153</altitud>
+        </coordenada>
+        <numeroSector>11</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">300</distanciaTramo>
+        <coordenada>
+            <longitud>-0.631687</longitud>
+            <latitud>39.484631</latitud>
+            <altitud>155</altitud>
+        </coordenada>
+        <numeroSector>11</numeroSector>
+    </puntoTramo>
+    <!-- Sector 12 -->
+    <puntoTramo>
+        <distanciaTramo unidades="metros">13</distanciaTramo>
+        <coordenada>
+            <longitud>-0.631792</longitud>
+            <latitud>39.484558</latitud>
+            <altitud>155</altitud>
+        </coordenada>
+        <numeroSector>12</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">16</distanciaTramo>
+        <coordenada>
+            <longitud>-0.631989</longitud>
+            <latitud>39.484550</latitud>
+            <altitud>155</altitud>
+        </coordenada>
+        <numeroSector>12</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">110</distanciaTramo>
+        <coordenada>
+            <longitud>-0.633269</longitud>
+            <latitud>39.484528</latitud>
+            <altitud>160</altitud>
+        </coordenada>
+        <numeroSector>12</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">87</distanciaTramo>
+        <coordenada>
+            <longitud>-0.634167</longitud>
+            <latitud>39.484178</latitud>
+            <altitud>164</altitud>
+        </coordenada>
+        <numeroSector>12</numeroSector>
+    </puntoTramo>
+    <!-- Sector 13 -->
+    <puntoTramo>
+        <distanciaTramo unidades="metros">87</distanciaTramo>
+        <coordenada>
+            <longitud>-0.634801</longitud>
+            <latitud>39.483566</latitud>
+            <altitud>164</altitud>
+        </coordenada>
+        <numeroSector>13</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">73</distanciaTramo>
+        <coordenada>
+            <longitud>-0.635127</longitud>
+            <latitud>39.482964</latitud>
+            <altitud>163</altitud>
+        </coordenada>
+        <numeroSector>13</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">90</distanciaTramo>
+        <coordenada>
+            <longitud>-0.635181</longitud>
+            <latitud>39.482139</latitud>
+            <altitud>161</altitud>
+        </coordenada>
+        <numeroSector>13</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">48</distanciaTramo>
+        <coordenada>
+            <longitud>-0.635053</longitud>
+            <latitud>39.481706</latitud>
+            <altitud>159</altitud>
+        </coordenada>
+        <numeroSector>13</numeroSector>
+    </puntoTramo>
+    <!-- Sector 14 -->
+    <puntoTramo>
+        <distanciaTramo unidades="metros">19</distanciaTramo>
+        <coordenada>
+            <longitud>-0.634860</longitud>
+            <latitud>39.481624</latitud>
+            <altitud>158</altitud>
+        </coordenada>
+        <numeroSector>14</numeroSector>
+    </puntoTramo>
+    <puntoTramo>
+        <distanciaTramo unidades="metros">21</distanciaTramo>
+        <coordenada>
+            <longitud>-0.634568</longitud>
+            <latitud>39.481670</latitud>
+            <altitud>156</altitud>
+        </coordenada>
+        <numeroSector>14</numeroSector>
+    </puntoTramo>
+
+
+    <vencedorYTiempo>M. Bezzecchi - 40:52.458</vencedorYTiempo>
+    <clasificados>
+        <piloto>M. Marquez</piloto>
+        <piloto>A. Marquez</piloto>
+        <piloto>M. Bezzecchi</piloto>
+    </clasificados>
+</circuito>

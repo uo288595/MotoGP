@@ -1,0 +1,46 @@
+/* Carlos Cabrera Moral UO28859 */
+
+/* Especificidad: 001 */
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    justify-self: center;
+}
+
+/* Especificidad: 002 */
+main > h2 {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+/* Especificidad: 002 */
+main > p {
+    grid-column: 1 / -1;
+    text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 799px) {
+    /* ESPECIFICIDAD = 001*/
+    main {
+        display: grid; /* Redefinición */
+        grid-template-columns: repeat(2, 1fr); /* Redefinición */
+        gap: 1rem; /* Redefinición */
+        padding: 1rem; /* Redefinición */
+        justify-self: center; /* Redefinición */
+    }
+}   
+
+
+
+
+
+
+
+
+
+
+
+
+

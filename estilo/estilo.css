@@ -1,0 +1,49 @@
+/* Carlos Cabrera Moral - UO288595 */
+/* Estilos generales del proyecto MotoGP-Desktop */
+
+/*  
+    Azul bebe: #c3e0e5
+    Azul marino: #274472     
+    Azul turquesa: #006F94
+    Azul cielo(con oscuros): #5885AF     -   #3A5C78     -   #304D64
+    Amarillo palido: #FFEA94
+*/
+
+/* Especificidad: 001 */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #c3e0e5;
+    color: #274472;
+}
+
+/* Especificidad: 001 */
+/* Hereda color de body */
+header {
+    background-color: #304D64;
+}
+
+/* Especificidad: 001 */
+/* Especificidad: 001 */
+/* Especificidad: 001 */
+/* Heredan background-color de body */
+h1, h2, h3 {
+    color: #274472;
+}
+
+/* Especificidad: 002 */
+/* Hereda background-color de header */
+header a {
+    color: #FFFFFF;
+    text-decoration-line: none;
+}
+
+/* Especificidad: 012 */
+/* Hereda background-color de header */ 
+header a.active {
+    color: #FFEA94;
+}
+
+/* Especificidad: 012 */
+body > p:first-of-type {
+    font-size: 0.75em;
+}
