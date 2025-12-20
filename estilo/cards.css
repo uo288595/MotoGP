@@ -38,6 +38,7 @@ article img {
     height: 100%;
     position: absolute;
     border-radius: 0.5em;
+    color: white;
     background: #274472;
     backface-visibility: hidden;
 }
