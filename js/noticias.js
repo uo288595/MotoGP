@@ -219,14 +219,6 @@ class ControladorNoticias {
 
             articulo.appendChild(footer);
 
-            // Enlace "Leer más"
-            const enlace = document.createElement('a');
-            enlace.href = noticia.url;
-            enlace.target = '_blank';
-            enlace.rel = 'noopener noreferrer';
-            enlace.textContent = 'Leer más';
-            articulo.appendChild(enlace);
-
             seccionNoticias.appendChild(articulo);
         });
 

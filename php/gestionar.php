@@ -13,6 +13,8 @@ if (isset($_POST['reiniciar'])) {
     $message = $config->exportarBaseDatosCSV();
 } elseif (isset($_POST['inicializar'])) {
     $message = $config->cargarPreguntas();
+} elseif (isset($_POST['importar'])) {
+    $message = $config->importarTablasDesdeCSV($_FILES['archivoCSV']);
 }
 
 ?>
@@ -38,11 +40,15 @@ if (isset($_POST['reiniciar'])) {
 
     <main>
         <h2>Gestión de la base de datos MotoGP</h2>
-        <form method="post" action="#">
+        <form method="post" action="#" enctype="multipart/form-data">
             <input type="submit" name="reiniciar" value="Reiniciar Base de Datos">
             <input type="submit" name="eliminar" value="Eliminar Base de Datos">
             <input type="submit" name="exportar" value="Exportar Base de Datos a CSV">
             <input type="submit" name="inicializar" value="Inicializar Preguntas">
+            <!-- Subir archivo csv y pasarselo al metodo importarTablasDesdeCSV para importarlo -->
+             <input type="file" name="archivoCSV" accept=".csv">
+            <input type="submit" name="importar" value="Importar CSV">
+             
         </form>
         <?php if ($message): ?>
             <p><?php echo $message; ?></p>
