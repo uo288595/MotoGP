@@ -46,7 +46,7 @@ if (isset($_POST['mostrar'])) {
 
 <body>
     <header>
-        <h1><a href="index.html" title="MotoGP Desktop">MotoGP Desktop</a></h1>
+        <h1><a href="index.html" title="Índice de MotoGP-Desktop">MotoGP Desktop</a></h1>
         <nav>
             <a href="index.html" title="Índice de MotoGP-Desktop">Inicio</a>
             <a href="piloto.html" title="Información del piloto">Piloto</a>
@@ -58,7 +58,7 @@ if (isset($_POST['mostrar'])) {
         </nav>
     </header>
 
-    <p>Estás en: <a href="index.html">Inicio</a> >> <a href="juegos.html" title="Juegos">Juegos</a> >> <strong>Cronómetro PHP</strong></p>
+    <p>Estás en: <a href="index.html" title="Índice de MotoGP-Desktop">Inicio</a> >> <a href="juegos.html" title="Juegos y pasatiempos">Juegos</a> >> <strong>Cronómetro PHP</strong></p>
 
     <h2>Cronómetro en PHP</h2>
 

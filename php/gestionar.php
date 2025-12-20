@@ -36,7 +36,7 @@ if (isset($_POST['reiniciar'])) {
 </head>
 
 <body>
-    <p>Volver a <a href="../index.html" title="Inicio">Inicio</a></p>
+    <p>Volver a <a href="../index.html" title="Índice de MotoGP-Desktop">Inicio</a></p>
 
     <main>
         <h2>Gestión de la base de datos MotoGP</h2>
