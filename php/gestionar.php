@@ -46,7 +46,8 @@ if (isset($_POST['reiniciar'])) {
             <input type="submit" name="exportar" value="Exportar Base de Datos a CSV">
             <input type="submit" name="inicializar" value="Inicializar Preguntas">
             <!-- Subir archivo csv y pasarselo al metodo importarTablasDesdeCSV para importarlo -->
-             <input type="file" name="archivoCSV" accept=".csv">
+            <label for="archivoCSV">Seleccionar archivo CSV</label>
+            <input type="file" id="archivoCSV" name="archivoCSV" accept=".csv">
             <input type="submit" name="importar" value="Importar CSV">
              
         </form>

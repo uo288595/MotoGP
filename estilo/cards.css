@@ -39,7 +39,6 @@ article img {
     position: absolute;
     border-radius: 0.5em;
     background: black;
-    color: white;
     backface-visibility: hidden;
 }
 
