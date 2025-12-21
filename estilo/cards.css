@@ -38,13 +38,8 @@ article img {
     height: 100%;
     position: absolute;
     border-radius: 0.5em;
-    background: #96B734;
+    background: black;
     backface-visibility: hidden;
-}
-
-article > h3 {
-    color: white;
-    background: #96B734;
 }
 
 /* Regla para centrar el texto "Memory Card" vertical y horizontalmente en cada carta */
