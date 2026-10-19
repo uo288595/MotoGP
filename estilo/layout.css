@@ -36,6 +36,7 @@ svg {
         flex-direction: column; 
         align-items: stretch;   
         width: 100%;
+        row-gap: 1rem;
     }
 
     /* ESPECIFICIDAD = 012 */
